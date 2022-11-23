@@ -1,4 +1,5 @@
 import 'package:collabapp/screens/Calender/calender_view.dart';
+import 'package:collabapp/screens/Changepass/changepass.dart';
 import 'package:collabapp/screens/Home/home.dart';
 import 'package:collabapp/screens/Login/login.dart';
 import 'package:collabapp/screens/OTP/Phone.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: MyVerify(),
+      home: ChangePass(),
     );
   }
 }
